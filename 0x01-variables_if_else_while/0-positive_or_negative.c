@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /* more headers goes there */
 /**
  * main -Assigns a random number to n and check
@@ -14,7 +15,7 @@ int main(void)
 	int n;
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 2
+	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
 	/* n is positive */
