@@ -12,12 +12,14 @@ int main(void)
 
 	while (twentyFourLetters <= 122)
 	{
-		putchar(twentyFourLetters);
-		twentyFourLetters++;
 		if (twentyFourLetters == 113 || twentyFourLetters == 101)
 		{
+		twentyFourLetters++;
 		continue;
 		}
+		putchar(twentyFourLetters);
+		twentyFourLetters++;
 	}
+	putchar('\n');
 	return (0);
 }
