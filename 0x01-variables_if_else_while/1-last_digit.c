@@ -18,7 +18,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	int last_digit_of_n;
-	last_digit_of_n %= 10;
+	last_digit_of_n = last_digit_of_n % 10;
 	if (last_digit_of_n > 5)
 	{
 	/* greater than 5 */
