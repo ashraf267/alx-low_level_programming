@@ -17,20 +17,18 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	int last_digit_of_n;
-	last_digit_of_n = (last_digit_of_n % 10);
-	if (last_digit_of_n > 5)
+	if ((n % 10) > 5)
 	{
 	/* greater than 5 */
-		printf("Last digit of %d is %d and is greater than 5\n", n, last_digit_of_n);
-	} else if (last_digit_of_n == 0)
+		printf("Last digit of %d is %d and is greater than 5\n", n, n % 10);
+	} else if ((n % 10) == 0)
 	{
 	/* equal to 0 */
-		printf("Last digit of %d is %d and is 0\n", n, last_digit_of_n);
+		printf("Last digit of %d is %d and is 0\n", n, n % 10);
 	} else
 	{
 	/* less than 6 and not 0 */
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, last_digit_of_n);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, n % 10);
 	}
 	return (0);
 }
