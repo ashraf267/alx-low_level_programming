@@ -8,8 +8,8 @@
  */
 int main(void)
 {
-	charsLowercase = 97; /* ends at 122 */
-	charsUppercase = 65; /* ends at 90 */
+	char charsLowercase = 97; /* ends at 122 */
+	char charsUppercase = 65; /* ends at 90 */
 
 	/* Starts printing lowercase alphabets */
 	while (charsLowercase <= 122)
