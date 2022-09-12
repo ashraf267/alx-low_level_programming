@@ -14,11 +14,13 @@ int main(void)
 
 	n = 48;
 	l_l = 97;
-	while (n <= 57) {
+	while (n <= 57)
+	{
 		putchar(n);
 		n++;
 	}
-	while (l_l <= 102) {
+	while (l_l <= 102)
+	{
 		putchar(l_l);
 		l_l++;
 	}
