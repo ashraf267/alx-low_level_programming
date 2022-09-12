@@ -13,17 +13,14 @@ int main(void)
 	x = 48;
 	while (x <= 57)
 	{
+		putchar(x);
 		if (x != 57)
 		{
-			putchar(x);
 			putchar(44);
 			putchar(32);
-			x++;
-		} else
-		{
-			putchar(x);
-			x++;
 		}
+		x++;
 	}
+	putchar('\n');
 	return (0);
 }
