@@ -1,6 +1,5 @@
-#ifndef main.h
-#define main.h
-
+#ifndef main
+#define main
 #include <unistd.h>
 
 /**
