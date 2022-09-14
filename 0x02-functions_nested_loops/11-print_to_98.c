@@ -13,16 +13,18 @@ void print_to_98(int n)
 		while(n > 98)
 		{
 			_putchar((n--) + 48);
-			_putchar(', ');
+			_putchar(44);
+			_putchar(32);
 		}
 		_putchar((n) + 48);
 		_putchar('\n');
 	} else
 	{
-		while( < 98)
+		while(n < 98)
 		{
 			_putchar((n++) + 48);
-			_putchar(', ');
+			_putchar(44);
+			_putchar(32);
 		}
 		_putchar((n) + 48);
 		_putchar('\n');
