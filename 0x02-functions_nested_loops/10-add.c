@@ -2,12 +2,12 @@
 
 /**
  * add - Adds two integers
- * @a: parameter one
- * @b: parameter two
+ * @x: parameter one
+ * @y: parameter two
  *
  * Return: Returns the computed sum
  */
-int add(int a, int b)
+int add(int x, int y)
 {
-       	return (a + b);
+	return (x + y);
 }
