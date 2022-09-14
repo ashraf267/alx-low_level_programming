@@ -11,7 +11,6 @@
 int _isalpha(int c)
 {
 	int output;
-	
 	if (isalpha(c))
 	{
 		output = 1;
