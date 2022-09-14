@@ -10,11 +10,14 @@
  */
 int _isalpha(int c)
 {
+	int output;
+	
 	if (isalpha(c))
 	{
-		return (1);
+		output = 1;
 	} else
 	{
-		return (0);
+		output = 0;
 	}
+	return (output);
 }
