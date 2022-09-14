@@ -6,9 +6,7 @@
  *
  * Return: Returns the absolute value
  */
-int _abs(int)
+int _abs(int n)
 {
-	int n;
-
 	return (abs(n));
 }
