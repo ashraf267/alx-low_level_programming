@@ -8,11 +8,11 @@
  *
  * Return: If lowercase, return 1, else, return 0
  */
-int _isLower(int c)
+int _islower(int c)
 {
 	int output;
 
-	if (isLower(c))
+	if (islower(c))
 	{
 		output = 1;
 	} else
