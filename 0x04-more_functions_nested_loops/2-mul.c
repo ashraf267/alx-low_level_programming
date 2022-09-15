@@ -5,9 +5,9 @@
  * @a: parameter one
  * @b: parameter two
  *
- * Return: Returns the computed sum
+ * Return: Returns the computed product
  */
 int mul(int a, int b)
 {
-	return (a + b);
+	return (a * b);
 }
