@@ -6,12 +6,13 @@
  * _isupper - checks for uppercase character
  * @c: The character to be checked
  *
- * Return: if uppercase, return 1, else, return 0
+ * Return: if uppercase, return 1
+ * else, return 0
  */
 int _isupper(int c)
 {
 	int output;
-
+	
 	if (isupper(c))
 	{
 		output = 1;
