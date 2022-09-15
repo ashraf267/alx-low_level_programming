@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * mul - Multiplies two integers
+ * mul - multiplies two integers
  * @a: parameter one
  * @b: parameter two
  *
@@ -9,5 +9,6 @@
  */
 int mul(int a, int b)
 {
-	return (a * b);
+	printf("%d\n", (a * b));
+	return (0);
 }
