@@ -4,6 +4,7 @@
 /**
  * print_line - draws a staright line in the terminal n number
  * of times
+ * @n: the given input n
  *
  * Return: 0
  */
