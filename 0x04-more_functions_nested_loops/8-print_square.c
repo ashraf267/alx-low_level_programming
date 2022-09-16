@@ -10,11 +10,12 @@
 void print_square(int size)
 {
 	int size_x;
-
-	size_x = size; // size assumed to be size_y
-
-	int x, y;
-
+	
+	size_x = size; /* size assumed to be size_y */
+	int x;
+	
+	int y;
+	
 	for (x = 0; x < size_x; x++)
 	{
 		if (size <= 0)
