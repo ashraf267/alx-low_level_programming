@@ -12,7 +12,7 @@ int main(void)
 
 	for (i = 1; i <= 100; i++)
 	{
-		if (i % 15 == 0) /* 3 mul by 5 is 15 */
+		if (i % 15 == 0)
 		{
 			printf("FizzBuzz ");
 			continue;
