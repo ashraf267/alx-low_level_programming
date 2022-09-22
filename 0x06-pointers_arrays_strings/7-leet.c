@@ -11,19 +11,18 @@ char *leet(char *str)
 	int i;
 
 	int j;
-
-	i = 0;
-	char leet[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
-	while (str[i])
+	
+	char x[] = "aAeEoOtTlL";
+	char y[] = "4433007711";
+	for (i = 0; *(str + i); i++)
 	{
-		for (j = 0; j <= 7; j++)
+		for (j = 0; j <= 9; j++)
 		{
-			if (str[i] == leet[j] || str[i] - 32 == leet[j])
+			if (x[j] == *(str + i))
 			{
-				str[i] = j + '0';
+				*(str + i) = y[j];
 			}
 		}
-		i++;
 	}
 	return (str);
 }
