@@ -10,10 +10,12 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int i = 0;
+	int i;
 
-	int d_len = 0;
+	int d_len;
 
+	i = 0;
+	d_len = 0;
 	while (dest[i++])
 	{
 		d_len++;
