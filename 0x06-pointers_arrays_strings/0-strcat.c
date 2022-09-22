@@ -7,14 +7,12 @@
  *
  * Return: a pointer to the resulting string dest
  */
-char *strcat(char *dest, const char *src)
+char *_strcat(char *dest, char *src)
 {
-	int i;
+	int i = 0;
 
-	int dLen;
+	int dLen = 0;
 
-	i = 0;
-	dLen = 0;
 	while (dest[i++])
 	{
 		dLen++;
