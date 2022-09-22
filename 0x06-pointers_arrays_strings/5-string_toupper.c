@@ -5,7 +5,7 @@ include "main.h"
  * string to uppercase
  * @str: the string to be changed
  *
- * Return: a pointer to the changes string
+ * Return: a pointer to the changed string
  */
 char *string_toupper(char *str)
 {
