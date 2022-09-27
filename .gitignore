@@ -1,0 +1,4 @@
+# ignore the below listed files or dirs
+replit.nix
+.replit
+.ccls-cache/
