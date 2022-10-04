@@ -33,7 +33,7 @@ int main(int argc, char *argv[])
 		for (i = 1; i < argc; i++)
 		{
 			ptr = argv[i];
-			len = strlen[ptr];
+			len = strlen(ptr);
 
 			for (j = 0; j < len; j++)
 			{
