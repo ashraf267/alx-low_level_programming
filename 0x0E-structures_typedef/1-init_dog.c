@@ -2,19 +2,20 @@
 #include "dog.h"
 
 /**
- * init_void -
- * @d:
- * @name:
- * @age:
- * @owner:
+ * init_void - a function that initializes a variable
+ * of type struct dog
+ * @d: given pointer to structure
+ * @name: given arguments or fields
+ * @age: given arguments or fields
+ * @owner: given arguments or fields;
  *
  * Return: nothing
  */
 void init_void(struct dog *d, char *name, float age, char *owner)
 {
-	struct dog my_dog;
+	struct dog mi_dog;
 
-	d = &my_dog;
+	d = &mi_dog;
 
 	d->name = name;
 
