@@ -1,5 +1,5 @@
-#include "main.h"
 #include "dog.h"
+#include <stdlib.h>
 
 /**
  * init_void - a function that initializes a variable
