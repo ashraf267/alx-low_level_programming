@@ -17,15 +17,7 @@ size_t print_list(const list_t *h)
 	{
 		if (h->str == NULL)
 		{
-			putchar('[');
-			putchar('0');
-			putchar(']');
-			putchar(' ');
-			putchar('(');
-			putchar('n');
-			putchar('i');
-			putchar('l');
-			putchar('\n');
+			printf("[0] (nil)\n");
 		} else
 		{
 			printf("[%d] %s\n", h->len, h->str);
