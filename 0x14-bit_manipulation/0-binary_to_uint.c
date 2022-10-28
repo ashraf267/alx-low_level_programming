@@ -5,7 +5,7 @@
  * number to an unsigned int
  * @b: a pointer to a string of 0 and 1 chars
  *
- * Return: the converted number, or 0 if:
+ * Return: the converted number, or 0 if
  * b is NULL
  * any char in b is not 0 or 1
  */
