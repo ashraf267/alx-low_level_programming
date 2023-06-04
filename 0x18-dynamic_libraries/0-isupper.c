@@ -9,6 +9,7 @@
  * else, return 0
  */
 
-int _isupper(int c) {
+int _isupper(int c)
+{
 	/* empty function def */
 }
